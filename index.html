@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
+	<!-- bootstrap required elements	 -->
+ 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
  
- <title>Natalie Wiegand</title>
+	<title>Natalie Wiegand</title>
  
  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
  
 <!-- 	 bootstrap link -->
- 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/> 
+<!--  	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  -->
+ 	 
+ 	 
+ 	 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 	 
+ 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	 
 
 <!-- 	icon at top of screen -->
 		<link rel="icon" href="/Users/nwiegand/MyWebsite/favion.ico" type="image/x-icon"/>
@@ -35,12 +48,12 @@
 <!-- brief about me -->
 	<div class="container">
 		<div class="row">
-			<div class="col-md">
+			<div class="col-md-6">
 			
 				<img id="pic" src="natalie_wiegand.JPG" alt="Me">
 			
 			</div>
-			<div class="col-md text-center">
+			<div class="col-md-6 text-center">
 			
 				<ul id="iAm">
 					<li>a CS Major at UPenn</li>
@@ -132,11 +145,11 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md">
+			<div class="col-md-6">
 				<h3> General Programming Languages:</h3>
 				<h4>Java, OCaml, JavaScript</h4>
 			</div>
-			<div class="col-md">
+			<div class="col-md-6">
 				<h3>Web Dev:</h3>
 				<h4>HTML, CSS, JQuery, Bootstrap</h4>
 			</div>
@@ -188,18 +201,33 @@
 		<div class="row">
 
 			<h3>Send me a message here!</h3>
-			<form method="get" id="form">
-
-				Your Name:
- 				<input type="text" name="name" placeholder="Firstname Lastname" title ="Name of Drug" id="name"/>
- 				Your Email Address:
- 				<input type="text" name="email" placeholder="ex. nwiegand@seas.upenn.edu" id="email">
- 				Subject:
- 				<input type="text" name="subj" placeholder="Hello!" id="subj">
- 				Your Message:
- 				<input type="text" name="mesg" placeholder="Looking forward to hearing from you!" id="mesg">
-
- 			</form>
+		
+ 			<form class="form-horizontal">
+ 				<div class="form-group">
+  					<label class="control-label col-sm-2" for="email">Your Name:</label>
+    				<div class="col-sm-3">
+      					<input type="email" class="form-control" id="email" placeholder="Firstname LastName">
+   					</div>
+ 				</div>
+ 				<div class="form-group">
+    				<label class="control-label col-sm-2" for="pwd">Your Email:</label>
+  					<div class="col-sm-3"> 
+						<input type="password" class="form-control" id="pwd" placeholder="nwiegand@seas.upenn.edu">
+					</div>
+				</div>
+				<div class="form-group"> 
+					<label class="control-label col-sm-2" for="pwd">Your Message:</label>
+					<div class="col-sm-5"> 
+						<textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5">
+						</textarea>
+    				</div>
+    			</div>
+				<div class="form-group"> 
+    				<div class="col-sm-offset-2 col-sm-10">
+    					<button type="submit" class="btn btn-default">Send!</button>
+					</div>
+				</div>
+			</form>
 		</div>
 
 		<!-- Resume -->
@@ -211,3 +239,4 @@
 	</div>
 	
 </body>
+</html>
