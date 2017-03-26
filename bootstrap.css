@@ -6,6 +6,18 @@ h1{
 	color: #4286f4!important;
 }
 
+i{
+	color:#adccff!important;
+}
+
+#social{
+	color:#adccff!important;
+}
+
+#social:hover{
+	color:#f4426e !important;
+}
+
 a:hover{
 	text-decoration: none !important;
 	color:#f4426e !important;
@@ -14,3 +26,4 @@ a:hover{
 #award{
 	color: #f4426e !important;
 }
+
