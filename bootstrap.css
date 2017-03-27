@@ -1,9 +1,28 @@
 body{
 	font-family: 'Lato', sans-serif!important;
+	padding-top: 65px!important;
 }
 
 h1{
 	color: #4286f4!important;
+	font-family: 'Lobster Two', cursive!important;
+	font-size: 60px !important;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif!important;
+}
+
+#about{
+	font-family: 'Raleway', sans-serif!important;
+}
+
+a{
+
+}
+
+#i-am{
+font-family: 'Acme', sans-serif!important;
 }
 
 i{
@@ -21,9 +40,14 @@ i{
 a:hover{
 	text-decoration: none !important;
 	color:#f4426e !important;
+	font-weight: bold!important;
 }
 
 #award{
 	color: #f4426e !important;
+}
+
+#award:hover{
+	font-weight: normal!important;
 }
 

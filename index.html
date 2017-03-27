@@ -10,6 +10,12 @@
 	<title>Natalie Wiegand</title>
  
  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+
+ <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet"> 
+
+ <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+
+ <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
  
 <!-- 	 bootstrap link -->
 <!--  	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  -->
@@ -58,7 +64,7 @@
 </div>	-->
 
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Natalie Wiegand</a>
@@ -71,6 +77,8 @@
   </div>
 </nav>
 
+<div class="row">&nbsp;</div>
+
 <div class="container">
 	<div class="row text-center">
 		<h1>Natalie Wiegand</h1>
@@ -82,15 +90,18 @@
 
 <!-- brief about me -->
 	<div class="container" id="about">
-		<div class="row my-7">
-			<div class="col-md-4 col-md-offset-1">
-			
-				<img class="img-rounded img-responsive" id="pic" src="natalie_wiegand.JPG" alt="Me">
-			
+		<div class="row ">
+		<!-- my-7 -->
+			<div class="col-md-4 ">
+			<!-- col-md-offset-1-->
+			<center>
+				<img class="img-rounded img-responsive align-middle text-center vertical-align" id="pic" src="natalie_wiegand.JPG" alt="Me">
+			</center>
+
 			</div>
 			<div class="col-md-6 text-center align-middle">
 				<div class="row">
-					<h3>I am</h3> 
+					<h3 id="i-am">I am</h3> 
 				</div>
 				<div class="row">
 					<h3><i class="fa fa-dot-circle-o" aria-hidden="true"></i> a CS Major at UPenn</h3>
@@ -104,25 +115,17 @@
 				<div class="row">
 					<h3><i class="fa fa-dot-circle-o" aria-hidden="true"></i> a foodie and outside whenever possible!</h3>
 				</div>
-			
-			
-			
-			
-			
-			
-		<!-- 	<ul class="list-unstyled" id="iAm"> 
-					<li>a CS Major at UPenn</li>
-					<li>a Teacher & Mentor for Girls Who Code West-Philly</li>
-					<li>a Web Developer for UPenn Outdoors Club
-					<li>a foodie and outside whenever possible!</li>
-				</ul> -->
-				
 			</div>
 		</div>
 	</div>
 
 	<div class="row">&nbsp;</div>
 	<div class="row">&nbsp;</div>
+
+<center> 
+
+
+</center>
 	<div class="row">&nbsp;</div>
 	<div class="row">&nbsp;</div>
 	
@@ -130,11 +133,13 @@
 
 	<div class="container">
 		<div class="row">
+			<h2>About Me</h2>
+
 			<h3> I am a passionate computer science student learning and developing projects outside of school and sharing my 
 			computer science passion with others</h3>
 			
 			<h3>In class, I am learning about design, data structures and other computer science principles.
-			Outisde of class, I am developing different projects on my own and in groups as well as 
+			Outisde of class, I am developing different projects on my own and in groups, as well as 
 			teaching and mentoring girls in middle-school at weekly Girls Who Code club meetings.
 			</h3>
 			
@@ -154,7 +159,7 @@
 		<div class="row">
 			<div class="well">
 		
-				<h3> This website! My website is an exploration in HTML, CSS, JavaScript and Bootstrap and showcases 
+				<h3> This website! My website is an exploration in <a id="award">HTML, CSS, JavaScript and Bootstrap</a> and showcases 
 				what I have learned teaching myself, using resources like online courses from freeCodeCamp, codecademy and w3schools as well as YouTube videos and just googling things I'm interested in. I started 
 				making this website after doing my fist web design project at FemmeHacks in the end of February!
 				</h3>
@@ -169,8 +174,8 @@
 		
 		<div class="col-md-5">
 			<h3>My FemmeHacks project that won the<a id="award"> Microsoft: Most Inclusive Design Award:</a> 
-			<a href="https://devpost.com/software/pharmasafe" target="_blank" alt="PharmaSafe DevPost">PharmaSafe</a>:
-			 a website enabling users to sign up for informational reminders to take their medications
+			<a href="https://devpost.com/software/pharmasafe" target="_blank" title="PharmaSafe DevPost">PharmaSafe</a>:
+			 a website enabling users to sign up for informational reminders to take their medications. Created in less than 11 hours with HTML, CSS, JavaScript and using the GoogleMaps and GoogleCalendars APIs
 			 <link href="url" id="link to devpost"> <link href="url" id="link to GitHub"></h3>
 		</div>
 
@@ -191,7 +196,7 @@
 			<h3>The UPenn Outdoors Club location recommendation website: a website I'm 
 			working on in a team of three to enable members to recommend places like hiking trails,
 			 campsites, restaurants, and vista points and view these points of interest on a map to 
-			 allow for easy trip planning and trip documentation</h3>
+			 allow for easy trip planning and trip documentation. We are using HTML, CSS, JavaScript and Node.JS in creating the site. I work mostly on the <a id="award">front-end</a> and am creating wireframes to <a id="award">design UX</a> and flow of the site</h3>
 			 </div>
 
 		</div>
@@ -200,18 +205,16 @@
 		<div class="row well">
 
 		<div class="col-md-3">
+		<center>
 			<img id="fcc-logo" src="https://avatars2.githubusercontent.com/u/9892522?v=3&s=400" title="freeCodeCamp logo" class="img-responsive">
+			</center>
 		</div>
 		
 		<div class="col-md-9">
-			<h3>My freeCodeCamp projects: I am in the process of completing an 800 hour course on full stack web development and have built a tribute page and will be creating projects like a weather website, tic-tac-toe and will eventually help build websites for nonprofit organizations that freeCodeCamp pairs with</h3>
+			<h3 class="vertical-align">My freeCodeCamp projects: I am in the process of completing an 800 hour course on <a id="award">full stack web development</a> and have built a tribute page and will be creating projects like a weather website, tic-tac-toe and will eventually help build websites for nonprofit organizations that freeCodeCamp pairs with</h3>
 		</div>
 
-		
 		</div>
-
-
-
 
 
 		<div class="row well">
@@ -223,7 +226,7 @@
 
 		<div class="col-md-5">
 			<h3><a href="https://github.com/nwiegand1/MemoryMatch" target="_blank" alt="Memory Match GitHub">Memory Match</a>:
-			 a game I created in Java using the JavaSwing library for the GUI that I made 
+			 a game I created in <a id="award">Java</a> using the JavaSwing library for the GUI that I made 
 			 as my final project for CIS-120: Programming Languages and Techniques</h3>
 			</div>
 
@@ -231,7 +234,7 @@
 
 
 		<div class="row well">
-			<h3>Flappy Fieldman: after self-teaching myself Objective C, 
+			<h3>Flappy Fieldman: after <a id="award">self-teaching myself Objective C</a>, 
 			I made an iOS app with a friend to honor our favorite teacher 
 			and game (Flappy Bird)</h3>
 		</div>
@@ -252,6 +255,11 @@
 <!-- 	skills? -->
 
 	<div class="container">
+	<div class="row">
+	<h2>Skills:</h2>
+	</div>
+
+
 		<div class="row">
 			<div class="col-md-6">
 				<h2> General Programming Languages:</h2>
@@ -276,7 +284,7 @@
 
 			<h2>Other Pursuits</h2>
 
-			<h3> I love to cook and most of my favorite recipes come from the Smitten Kitchen.
+			<h3> I love to cook and most of my favorite recipes come from the <a href="https://smittenkitchen.com/" title="Smitten Kitchen Website">Smitten Kitchen</a>.
 			I don't have a kitchen in college, so I go to my friends kitchens whenever possible to cook
 			and have made many cooking experiments in the microwave in my dorm.</h3>
 			
